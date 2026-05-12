@@ -13,8 +13,8 @@ jobs:
             - name: show python version
               run: python --version
             - name : install dependencies
-              run: pip install -r requirement.txt  
+              run: pip install -r .github/workflows/requirement.txt
             - name : run python program
-              run: python extract_data.py
+              run: python .github/workflows/extract_data.py
               
                 
